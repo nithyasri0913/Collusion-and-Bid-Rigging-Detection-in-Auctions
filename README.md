@@ -1,4 +1,4 @@
-# Collusion-and-Bid-Rigging-Detection-in-Auctions
+# Collusion and Bid-Rigging Detection in Auctions
 
 This project implements a system for detecting potential collusion and bid-rigging activities in auction data using a combination of DBSCAN clustering and statistical anomaly detection techniques. The system identifies suspicious bidders by analyzing their bidding patterns, such as frequent bids, unusually short time gaps between consecutive bids, price deviations, and statistical outliers in their bidding behavior.
 
