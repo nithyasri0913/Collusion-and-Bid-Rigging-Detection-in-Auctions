@@ -17,6 +17,8 @@ Frequency of bids placed by each bidder is calculated.
 The time gap between consecutive bids is tracked to detect suspicious behavior, such as placing multiple bids within a very short time frame.
 ### 5. Collusion and Bid-Rigging Detection Logic
 The system combines DBSCAN clusters, statistical outlier detection (Z-Score), price deviation analysis, and bidder behavior patterns to detect potential collusion or bid-rigging activities.
+### 6. Markov Chain
+Collusion in repeated actions is dynamic. The transition probablity matrix obtained from a Markov Chain provides direct quantitative evidence of dynamic collusion (bid rotation).
 
 ## Key Variables and Thresholds
 ### DBSCAN Parameters:
